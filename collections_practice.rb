@@ -54,6 +54,8 @@ def add_s(arr)
   arr.each_with_index.collect do |value, index|
     if index !=  1
       value << "s"
+    else 
+      value
     end 
   end 
 end 
